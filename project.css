@@ -1,0 +1,54 @@
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+p#hello{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.profile-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bottom-container{
+    background-color: #66bfbf ;
+    padding: 50px 0 20px;
+}
+
+.profile{
+    text-align: center;
+}
+
+@media (max-width: 680px){
+    .image{
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
